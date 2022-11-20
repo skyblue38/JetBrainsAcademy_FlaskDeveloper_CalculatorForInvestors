@@ -1,0 +1,20 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    # Please, don't modify
+    id = 19
+    full_name = "Percy"
+    email = "percy@gmail.com"
+    gpa = 9.2
+
+    # your code here
+    ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17172#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 16 Nov 2022 01:14:53 UTC"
+record: -1

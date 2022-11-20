@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: "<code>customer = (2, 'Naomi Ceder', '1220 Fifth Ave', 'New York', 10002,\
+    \ 'United States') cursor.execute('INSERT INTO Customers VALUES (?, ?, ?, ?, ?,\
+    \ ?)', customer)</code>"
+- text: "<code>customer = (2, 'Naomi Ceder', '1220 Fifth Ave', 'New York', 10002,\
+    \ 'United States') cursor.execute('INSERT INTO Customers VALUES (?)', customer)</code>"
+- text: "<code>cursor.execute(\"INSERT INTO Customers VALUES ('Naomi Ceder', '1220\
+    \ Fifth Ave');\")</code>"
+- text: "<code>cursor.execute(\"INSERT INTO Customers (CustomerName, Address, City,\
+    \ PostalCode, Country) VALUES ('Naomi Ceder', '1220 Fifth Ave', 'New York', 10002,\
+    \ 'United States');\")</code>"
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17169#comment
+status: Solved
+record: -1
+local_check: false

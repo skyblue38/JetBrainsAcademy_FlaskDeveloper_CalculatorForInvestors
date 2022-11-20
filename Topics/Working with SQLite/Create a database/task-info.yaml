@@ -1,0 +1,24 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    import sqlite3
+    from sqlite3 import Error
+
+
+    # your code here
+    try:
+        ...
+
+    except Error:
+        print(Error)
+    finally:
+        ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17167#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 16 Nov 2022 01:20:18 UTC"
+record: -1

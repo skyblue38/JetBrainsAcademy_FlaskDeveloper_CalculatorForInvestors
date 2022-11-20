@@ -1,0 +1,68 @@
+<h2>Put it all together</h2>
+<html><body><p>We are going to work with the database that contains the <code class="java">Student</code> and <code class="java">Department</code> tables. Here's what they look like:</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+<caption>
+<p style="text-align: center;">Department table</p>
+</caption>
+<thead>
+<tr>
+<th>id</th>
+<th>name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Engineering</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Mathematics</td>
+</tr>
+<tr>
+<td style="text-align: center;">45</td>
+<td style="text-align: center;">Physics</td>
+</tr>
+</tbody>
+</table>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+<caption>
+<p style="text-align: center;">Students table</p>
+</caption>
+<thead>
+<tr>
+<th>id</th>
+<th>full_name</th>
+<th>email</th>
+<th>GPA</th>
+<th>department</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Alan Turing</td>
+<td style="text-align: center;">alan@mail.com</td>
+<td style="text-align: center;">9.5</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Katherine Johnson</td>
+<td style="text-align: center;">katherine@mail.com</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Helen Quinn</td>
+<td style="text-align: center;">helen@mail.com</td>
+<td style="text-align: center;">8.7</td>
+<td style="text-align: center;">45</td>
+</tr>
+</tbody>
+</table>
+<p>Ask the user for a department name, use the department's name to find out its id. Then, use the student information that is defined below, and insert a new student in the <code class="java">Student</code> table. Finally, commit the changes. The <code class="java">cursor</code> has been previously defined.</p></body></html><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">Engineering</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">(19, &#39;Percy&#39;, &#39;percy@gmail.com&#39;, 9.2, 1)</code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 15 seconds</font><br><br>
+<b>Caution</b><br><br>
+You may see errors in your code or execution results due to missing context. Don’t worry about it, just write the solution and press Check.
+<br><br>

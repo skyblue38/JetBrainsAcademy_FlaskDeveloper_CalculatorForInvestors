@@ -1,0 +1,16 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    # Put your code here
+
+    cursor.executemany('INSERT INTO customers(CustomerName, Address, City, PostalCode, Country) VALUES (...)
+    con.commit()
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17171#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 16 Nov 2022 00:55:05 UTC"
+record: -1
